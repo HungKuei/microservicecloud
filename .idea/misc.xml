@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/microservicecloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-eureka/pom.xml" />
       </list>
     </option>
   </component>

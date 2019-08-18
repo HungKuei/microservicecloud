@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: microservicecloud-provider          # 对外暴露的服务名称
+    name: microservicecloud-provider   # 对外暴露的服务名称
   ## 数据源配置
   datasource:
     name: test
@@ -40,6 +40,17 @@ spring:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
 
+#客户端注册进eureka服务列表内
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}(${spring.cloud.client.ip-address}:${server.port})
+    lease-renewal-interval-in-seconds: 10
+
+
 mybatis:
   config-location: classpath:mybatis/mybatis_config.xml
   type-aliases-package: com.hungkuei.model
@@ -49,3 +60,13 @@ mybatis:
 logging:
   level:
     com.hungkuei: DEBUG
+
+
+info:
+  app.name: microservicecloud
+  author: hungkuei
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+  date: 2019-08-18 15:22:00
+
+
