@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserService {
 
-    TUser findByUserId(Long userId);
+    TUser findByUserId(Integer userId);
 
     List<TUser> findAll();
 }

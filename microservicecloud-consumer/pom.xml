@@ -21,6 +21,15 @@
             <artifactId>microservicecloud-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- Ribbon配置相关 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
         <!-- spring boot web 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

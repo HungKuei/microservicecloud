@@ -12,13 +12,13 @@ import java.util.List;
 @RestController
 public class UserConsumerController {
 
-    private static final String REST_URL_PREIX = "http://localhost:8001";
+    private static final String REST_URL_PREIX = "http://MICROSERVICECLOUD-PROVIDER";
 
     @Autowired
     private RestTemplate restTemplate;
 
     @RequestMapping("/consumer/user/get/{userId}")
-    public TUser getUser(@PathVariable Long userId){
+    public TUser getUser(@PathVariable Integer userId){
         return restTemplate.getForObject(REST_URL_PREIX + "/provider/user/get/" + userId, TUser.class);
     }
 

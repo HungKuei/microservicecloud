@@ -10,7 +10,7 @@ import java.util.List;
 public interface UserMapper {
 
     @Select("select * from t_user where user_id = #{userId}")
-    TUser selectByUserId(Long userId);
+    TUser selectByUserId(Integer userId);
 
     @Select("select * from t_user")
     List<TUser> selectAll();

@@ -15,7 +15,7 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public TUser findByUserId(Long userId) {
+    public TUser findByUserId(Integer userId) {
         return userMapper.selectByUserId(userId);
     }
 

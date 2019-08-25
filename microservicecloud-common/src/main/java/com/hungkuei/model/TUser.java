@@ -12,7 +12,7 @@ public class TUser {
     /**
      * 用户主键
      */
-    private Long userId;
+    private Integer userId;
 
     /**
      * 用户名
