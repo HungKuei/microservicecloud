@@ -8,7 +8,14 @@
         <option value="$PROJECT_DIR$/microservicecloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider-hystrix/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

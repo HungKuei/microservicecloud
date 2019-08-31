@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/microservicecloud/microservicecloud.iml" filepath="$PROJECT_DIR$/microservicecloud/microservicecloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-common/microservicecloud-common.iml" filepath="$PROJECT_DIR$/microservicecloud-common/microservicecloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-consumer/microservicecloud-consumer.iml" filepath="$PROJECT_DIR$/microservicecloud-consumer/microservicecloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-consumer-feign/microservicecloud-consumer-feign.iml" filepath="$PROJECT_DIR$/microservicecloud-consumer-feign/microservicecloud-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-eureka/microservicecloud-eureka.iml" filepath="$PROJECT_DIR$/microservicecloud-eureka/microservicecloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider.iml" filepath="$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/microservicecloud-provider-hystrix.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-hystrix/microservicecloud-provider-hystrix.iml" />
     </modules>
   </component>
 </project>

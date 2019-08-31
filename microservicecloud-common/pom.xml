@@ -15,6 +15,11 @@
 
     <!-- 当前Module需要用到的依赖，按自己需求添加，版本号在父类已经定义了，这里不需要再次定义 -->
     <dependencies>
+        <!-- Feign配置相关 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

@@ -1,29 +1,28 @@
 package com.hungkuei.controller;
 
 import com.hungkuei.model.TUser;
+import com.hungkuei.service.UserClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
 @RestController
-public class UserConsumerController {
-
-    private static final String REST_URL_PREIX = "http://MICROSERVICECLOUD-PROVIDER-HYSTRIX";
+public class UserConsumerFeignController {
 
     @Autowired
-    private RestTemplate restTemplate;
+    private UserClientService userClientService;
 
     @RequestMapping("/consumer/user/get/{userId}")
     public TUser getUser(@PathVariable Integer userId){
-        return restTemplate.getForObject(REST_URL_PREIX + "/provider/user/get/" + userId, TUser.class);
+        return userClientService.getByUserId(userId);
     }
 
     @RequestMapping("/consumer/user/get/list")
     public List<TUser> getAll(){
-        return restTemplate.getForObject(REST_URL_PREIX + "/provider/user/get/list", List.class);
+        return userClientService.getAll();
     }
+
 }

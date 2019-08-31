@@ -7,6 +7,9 @@
     <ignored path="$PROJECT_DIR$/microservicecloud-provider/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-consumer/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-feign/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-hystrix/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +33,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProviderSpringApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/ProviderSpringApplication.java">
+      <file leaf-file-name="ProviderHystrixSpringApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/ProviderHystrixSpringApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
               </folding>
             </state>
@@ -47,17 +48,74 @@
       <file leaf-file-name="UserConsumerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="286">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserConsumerFeignController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/hungkuei/controller/UserConsumerFeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerFeignSpringApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/hungkuei/ConsumerFeignSpringApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="UserProviderController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/controller/UserProviderController.java">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/controller/UserProviderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="616">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaServerSpringApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/hungkuei/EurekaServerSpringApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserClientService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/service/UserClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,14 +133,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/controller/UserController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/hungkuei/EurekaServerApringApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/ProviderSpringApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud/pom.xml" />
-        <option value="$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/model/TUser.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/service/UserService.java" />
@@ -90,14 +146,26 @@
         <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/config/RestTmplateConfig.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/ConsumerSpringApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/myrule/CustomRule.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/myrule/MySelfRule.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/src/main/resources/mybatis/mybatis_config.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/hungkuei/ConsumerFeignSpringApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/ConsumerSpringApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/service/impl/UserClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/model/TUser.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/ProviderHystrixSpringApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/service/UserClientService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/hungkuei/controller/UserConsumerFeignController.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/controller/UserProviderController.java" />
       </list>
     </option>
   </component>
@@ -126,11 +194,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservicecloud-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="microservicecloud-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservicecloud-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="microservicecloud-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -151,52 +228,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -204,59 +266,7 @@
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -265,7 +275,7 @@
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -275,18 +285,83 @@
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hungkuei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hungkuei" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hungkuei" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hungkuei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-provider-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hungkuei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,6 +385,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\microservicecloud\microservicecloud-provider-hystrix\src\main\resources" />
+      <recent name="D:\idea_workspace\microservicecloud\microservicecloud-provider-hystrix\src\main\java\com\hungkuei" />
+      <recent name="D:\idea_workspace\microservicecloud\microservicecloud-consumer-feign\src\main\resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -326,9 +408,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.1495935" />
+    <option name="contentProportion" value="0.1799458" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerSpringApplication">
+  <component name="RunManager" selected="Spring Boot.ConsumerFeignSpringApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -347,6 +429,10 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ConsumerFeignSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hungkuei.ConsumerFeignSpringApplication" />
     </configuration>
     <configuration name="ConsumerSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-consumer" />
@@ -367,6 +453,16 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hungkuei.EurekaServerSpringApplication" />
+    </configuration>
+    <configuration name="ProviderHystrixSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-provider-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hungkuei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hungkuei.ProviderHystrixSpringApplication" />
     </configuration>
     <configuration name="ProviderSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-provider" />
@@ -404,12 +500,15 @@
       <item itemvalue="Spring Boot.ProviderSpringApplication" />
       <item itemvalue="Spring Boot.ConsumerSpringApplication" />
       <item itemvalue="Spring Boot.EurekaServerSpringApplication" />
+      <item itemvalue="Spring Boot.ConsumerFeignSpringApplication" />
+      <item itemvalue="Spring Boot.ProviderHystrixSpringApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerSpringApplication" />
-        <item itemvalue="Spring Boot.ProviderSpringApplication" />
+        <item itemvalue="Spring Boot.ProviderHystrixSpringApplication" />
         <item itemvalue="Spring Boot.EurekaServerSpringApplication" />
+        <item itemvalue="Spring Boot.ProviderSpringApplication" />
+        <item itemvalue="Spring Boot.ConsumerSpringApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -429,16 +528,17 @@
       <workItem from="1566182507297" duration="599000" />
       <workItem from="1566185503184" duration="599000" />
       <workItem from="1566189609170" duration="6236000" />
-      <workItem from="1566720745967" duration="7314000" />
+      <workItem from="1566720745967" duration="7912000" />
+      <workItem from="1567154720441" duration="1780000" />
+      <workItem from="1567230861040" duration="11401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34808000" />
+    <option name="totallyTimeSpent" value="48587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.54684097" />
@@ -457,12 +557,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.40522876" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" weight="0.5108932" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5174292" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3583878" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23987207" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -487,6 +587,69 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/ProviderSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/controller/UserProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/ProviderSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/controller/UserProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/hungkuei/EurekaServerSpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -506,71 +669,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-eureka/src/main/java/EurekaServerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/microservicecloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/model/TUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/hungkuei/EurekaServerSpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/ProviderSpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,12 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initWithNiwsConfig#0;class#CustomRule#0" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,18 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/ConsumerSpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,27 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/myrule/MySelfRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -672,17 +736,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/microservicecloud/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="330">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/controller/UserProviderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="110">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/src/main/java/com/hungkuei/ProviderSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/ConsumerSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="58" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/resources/mybatis/mybatis_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/service/impl/UserClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/model/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/hungkuei/EurekaServerSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-common/src/main/java/com/hungkuei/service/UserClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer/src/main/java/com/hungkuei/controller/UserConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/ProviderHystrixSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/hungkuei/ConsumerFeignSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/hungkuei/controller/UserConsumerFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/src/main/java/com/hungkuei/controller/UserProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,7 +1026,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservicecloud-eureka</last-edited>
+          <last-edited>microservicecloud-common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

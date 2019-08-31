@@ -23,4 +23,5 @@ public class TUser {
      * 用户性别
      */
     private Integer sex;
+
 }

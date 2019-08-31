@@ -9,16 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-common" />
         <module name="microservicecloud-consumer" />
+        <module name="microservicecloud-consumer-feign" />
         <module name="microservicecloud-eureka" />
         <module name="microservicecloud-provider" />
+        <module name="microservicecloud-provider-hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservicecloud" target="1.8" />
       <module name="microservicecloud-common" target="1.8" />
       <module name="microservicecloud-consumer" target="1.8" />
+      <module name="microservicecloud-consumer-feign" target="1.8" />
       <module name="microservicecloud-eureka" target="1.8" />
       <module name="microservicecloud-provider" target="1.8" />
+      <module name="microservicecloud-provider-hystrix" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
