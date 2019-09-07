@@ -10,10 +10,13 @@
         <option value="$PROJECT_DIR$/microservicecloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix/microservicecloud-provider-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider-hystrix/pom.xml" />
       </set>
     </option>
