@@ -9,5 +9,6 @@
     <file url="file://$PROJECT_DIR$/microservicecloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-provider-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway" charset="UTF-8" />
   </component>
 </project>

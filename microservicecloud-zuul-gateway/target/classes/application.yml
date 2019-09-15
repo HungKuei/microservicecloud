@@ -1,0 +1,37 @@
+# 服务端口号
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservicecloud-zuul-gateway   # 对外暴露的服务名称
+
+
+#客户端注册进eureka服务列表内
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}(${spring.cloud.client.ip-address}:${server.port})
+    lease-renewal-interval-in-seconds: 10
+
+##路由网关
+zuul:
+  prefix: /cloud
+  ignored-services: microservicecloud-provider-hystrix
+  routes:
+    myprovider.serviceId: microservicecloud-provider-hystrix
+    myprovider.path: /myprovider/**
+
+
+info:
+  app.name: microservicecloud
+  author: hungkuei
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+  date: 2019-08-18 15:22:00
+
+
+

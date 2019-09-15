@@ -14,6 +14,7 @@
         <module name="microservicecloud-eureka" />
         <module name="microservicecloud-provider" />
         <module name="microservicecloud-provider-hystrix" />
+        <module name="microservicecloud-zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="microservicecloud-eureka" target="1.8" />
       <module name="microservicecloud-provider" target="1.8" />
       <module name="microservicecloud-provider-hystrix" target="1.8" />
+      <module name="microservicecloud-zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

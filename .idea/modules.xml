@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-eureka/microservicecloud-eureka.iml" filepath="$PROJECT_DIR$/microservicecloud-eureka/microservicecloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider.iml" filepath="$PROJECT_DIR$/microservicecloud-provider/microservicecloud-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-hystrix/microservicecloud-provider-hystrix.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-hystrix/microservicecloud-provider-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-zuul-gateway/microservicecloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/microservicecloud-zuul-gateway/microservicecloud-zuul-gateway.iml" />
     </modules>
   </component>
 </project>
